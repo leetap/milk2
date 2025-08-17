@@ -1,0 +1,6 @@
+Set-Content config\boards\shields\milk2\Kconfig.defconfig @'
+if SHIELD_milk2
+  config ZMK_KEYBOARD_NAME
+    default "milk2"
+endif
+'@
