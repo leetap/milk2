@@ -14,7 +14,7 @@
 
         default_layer {
             bindings = <
-&kp C_PLAY  &lt 1 K_PLAY_PAUSE
+&kp NUMBER_1  &lt 1 NUMBER_2
             >;
         };
 
