@@ -1,4 +1,2 @@
-Set-Content config\boards\shields\milk2\Kconfig.shield @'
-config SHIELD_milk2
-    bool "milk2"
-'@
+config SHIELD_MILK2
+  bool "milk2"
