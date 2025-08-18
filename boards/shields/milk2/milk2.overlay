@@ -3,7 +3,7 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        label = "KSCAN-DIRECT";
+        /* nice!nano v2 pads: 06 -> &gpio0 6, 08 -> &gpio0 8 */
         input-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
                       <&gpio0 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
