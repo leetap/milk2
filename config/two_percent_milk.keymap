@@ -14,7 +14,7 @@
 
         default_layer {
             bindings = <
-&kp NUMBER_1  &lt 1 NUMBER_2
+&kp N0  &lt 1 NUMBER_2
             >;
         };
 
